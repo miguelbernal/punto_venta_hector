@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.panel-admin{
+    width: 350px;
+    height: 270px;
+    /*background-color: aquamarine;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -135px;
+    margin-left: -175px;
+}

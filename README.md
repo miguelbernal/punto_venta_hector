@@ -14,6 +14,7 @@
 ## FRAMEWORK (MARCO DE TRABAJO)
 1. BOOTSTRAP -> https://getbootstrap.com/
 2. JQUERY -> https://jquery.com/
+3. FONTAWESOME -> https://fontawesome.com/
 
 ## MATERIALES
 1. HTML -> https://www.youtube.com/watch?v=rbuYtrNUxg4&t=2699s
