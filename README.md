@@ -22,3 +22,4 @@
 3. JAVASCRIPT -> https://www.youtube.com/watch?v=RqQ1d1qEWlE&t=2654s
 4. BOOTSTRAP -> https://www.youtube.com/watch?v=7s1RjItUBqU&list=PLL0TiOXBeDagsYUYFO9WMwDtuDuoGZVB9
 5. TODOS -> https://www.w3schools.com/
+6. POSTGRESQL -> https://www.youtube.com/watch?v=jxIEDKzGrOs&list=PL8gxzfBmzgex2nuVanqvxoTXTPovVSwi2
