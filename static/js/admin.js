@@ -11,16 +11,12 @@ function ingresar(){
     var usuario_usuario = $('#usuario_usuario').val();
     var clave_usuario = $('#clave_usuario').val();
     if(usuario_usuario.trim() === ''){
-        alert('Usuario vacio');
-        $('#usuario_usuario').focus();
+        mensaje('Usuario vacio','Aceptar','focus("#usuario_usuario")');
     } else if(clave_usuario.trim() === ''){
-        alert('Contraseña vacia');
-        $('#clave_usuario').focus();
+        mensaje('Contraseña vacia','Aceptar','focus("#clave_usuario")');
     } else {
-        console.log('validando contra el servidor');
         ingresar_ajax(usuario_usuario, clave_usuario);
     }
-
 }
 
 async function ingresar_ajax(usuario_usuario, clave_usuario) {
@@ -36,7 +32,6 @@ async function ingresar_ajax(usuario_usuario, clave_usuario) {
     if (json.acceso) {
         location.href = "./menu";
     } else {
-        alert('Credencial incorrecta');
-        $('#usuario_usuario').select();
+        mensaje('Credencial incorrecta','Aceptar','focus("#usuario_usuario")');
     }
 }
